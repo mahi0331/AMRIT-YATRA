@@ -1,22 +1,22 @@
-# AMRIT-YATRA
+# 💧 Amrit Yatra
 
-is a web-based application designed to facilitate user interaction with local governance regarding water status, complaints, and emergencies. The platform provides dashboards for both users and government officials, allowing for efficient complaint tracking, emergency reporting, and status monitoring.
+**Amrit Yatra** is a web-based application designed to facilitate user interaction with local governance regarding water supply status, complaints, and emergencies. The platform provides dashboards for both users and government officials, allowing for efficient complaint tracking, emergency reporting, and status monitoring.
 
-Features
-User and government login portals
+---
 
-Submission and tracking of complaints
+## 🚀 Features
 
-Emergency reporting functionality
+- 🔐 User and government login portals  
+- 📩 Submission and tracking of complaints  
+- 🚨 Emergency reporting functionality  
+- 📊 Dashboards for users and officials  
+- 💧 Water status updates  
+- 📂 Complaint management and viewing  
 
-Dashboards for users and officials
+---
 
-Water status updates
+## 🗂️ Directory Structure
 
-Complaint management and viewing
-
-Directory Structure
-text
 ├── README.md
 ├── about.html
 ├── app.py
@@ -35,40 +35,62 @@ text
 ├── view_complaint.html
 ├── view_complaints.html
 └── water_status.html
-Installation
-Clone the repository:
 
-bash
-git clone <repository-url>
-cd mahi0331-amrit-yatra
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository-url>
+   cd mahi0331-amrit-yatra
+
 Install dependencies:
 
 Ensure you have Python 3.x installed.
 
-Install required packages (e.g., Flask):
-
 bash
+Copy
+Edit
 pip install flask
 Set up the database:
 
-The project uses SQLite databases (gp.db, usercredentials.db). These are included in the repository.
+The project uses SQLite databases (gp.db, usercredentials.db). These are already included in the repository.
 
 Run the application:
 
 bash
+Copy
+Edit
 python app.py
-Usage
-Open your browser and navigate to http://localhost:5000/
+💻 Usage
+Open your browser and go to:
+http://localhost:5000/
 
-Use the login pages (User_login.html, gov_login.html) for respective dashboards.
+Use:
 
-Users can submit complaints, report emergencies, and track complaint status.
+User_login.html for user dashboard access
 
-Government officials can view and manage complaints via their dashboard.
+gov_login.html for government dashboard access
 
-Technologies Used
+Functionalities:
+
+Users can submit complaints, track status, and report emergencies
+
+Government officials can view, manage, and act on reported complaints
+
+🛠️ Technologies Used
 Backend: Python (Flask)
 
 Frontend: HTML, CSS, JavaScript
 
 Database: SQLite
+
+vbnet
+Copy
+Edit
+
+Let me know if you’d like me to add badges, deployment instructions, or a license section!
+
+
